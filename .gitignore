@@ -1,0 +1,7 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Local media not meant for the repo
+avatar*.jpg
+*.tmp
