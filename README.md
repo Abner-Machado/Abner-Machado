@@ -23,20 +23,7 @@ producao, com codigo limpo, mantido por uma pessoa so e sem lock-in.
 
 ## Projetos
 
-Ferramentas que eu construo e mantenho. Todas open source, todas rodam na sua
-propria maquina, nenhuma exige conta, chave de API ou nuvem.
-
-| Projeto | O que faz | Stack |
-| --- | --- | --- |
-| [allied-code](https://github.com/Abner-Machado/allied-code) | Guard pre-execucao para agentes de IA. Decide por incidente gravado, nao por lista de bloqueio fixa. | Python, Rust |
-| [consilience](https://github.com/Abner-Machado/consilience) | Acha os links que faltam entre as suas notas. Local, semantico, sem nuvem. | Python, Ollama |
-| [potatollm](https://github.com/Abner-Machado/potatollm) | Mede se um modelo do Ollama roda de verdade numa maquina fraca, so CPU. | Python |
-| [comitbigorna](https://github.com/Abner-Machado/comitbigorna) | Varredura pre-commit nativa e sob demanda. So reporta: nunca corrige, nunca commita. | Shell |
-| [neon-calc](https://github.com/Abner-Machado/neon-calc) | Calculadora de arquivo unico. Quando a conta nao tem resposta possivel, o visor responde. | HTML, JS |
-
----
-
-### allied-code: o guard que decide por jurisprudencia
+### [allied-code](https://github.com/Abner-Machado/allied-code): o guard que decide por jurisprudencia
 
 *Lista de bloqueio decora comandos. Esta aqui lembra o que ja deu errado.*
 
@@ -93,15 +80,10 @@ registra o que teria feito, para voce medir antes de confiar.
 Cada decisao vira uma linha no ledger, com a classe, o precedente, a latencia e
 se a busca achou algo ou voltou vazia. Segredo e mascarado antes de escrever.
 
-#### O que o corpus tem de diferente
-
 O corpus nao e documentacao: e memoria operacional. Cada incidente diz o que a
 maquina fez, o que quebrou, como foi descoberto, e a regra numa frase - mais o
-**custo dessa regra**, porque toda regra cobra um preco e esconder o preco e
-como a regra morre.
-
-Sao arquivos markdown com front matter YAML, entao o mesmo corpus abre no
-Obsidian e serve de contexto para outro modelo ler antes de comecar a trabalhar.
+custo dessa regra, porque toda regra cobra um preco. Sao arquivos markdown com
+front matter YAML, entao o mesmo corpus abre no Obsidian.
 
 #### Medido, nao prometido
 
