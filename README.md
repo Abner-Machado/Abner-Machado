@@ -1,17 +1,7 @@
-<table><tr>
-<td valign="middle" width="34%">
-<img src="assets/mj.png" alt="Ilustração em pose de dança" width="270">
-</td>
-<td valign="middle" width="66%">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-escuro.svg">
-  <img src="assets/hero-claro.svg" alt="Abner Machado — engenharia de software independente. IA aplicada, open source, sem lock-in." width="720">
+  <img src="assets/hero-claro.svg" alt="Abner Machado — engenharia de software independente. IA aplicada, open source, sem lock-in." width="860">
 </picture>
-
-</td>
-</tr></table>
-
 
 Construo produtos SaaS de ponta a ponta e prefiro ferramentas abertas, auto-hospedáveis
 e padrões que não prendem o projeto a um fornecedor.
@@ -35,10 +25,10 @@ e padrões que não prendem o projeto a um fornecedor.
   <img src="assets/h-trabalho-claro.svg" alt="Como trabalho" height="52">
 </picture>
 
-- **Open source primeiro.** Solução proprietária só com vantagem técnica clara.
-- **Menor interferência.** A mudança mínima que resolve, sem reescrever o que funciona.
+- **Código aberto primeiro.** Solução proprietária só com vantagem técnica clara.
+- **Interferência menor.** A mudança mínima que resolve, sem reescrever o que funciona.
 - **Decisão por custo, manutenção e risco de dependência** — não por hype.
-- **Código aberto sempre que possível**, para que outros possam auditar e reusar.
+- **Código aberto sempre que possível**, para que outros possam auditar e reutilizar.
 
 <br>
 
@@ -54,9 +44,7 @@ e padrões que não prendem o projeto a um fornecedor.
   <img src="assets/h-stack-claro.svg" alt="Stack" height="52">
 </picture>
 
-<table>
-<tr>
-<td valign="top" width="50%">
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s-agentes-escuro.svg">
@@ -65,20 +53,12 @@ e padrões que não prendem o projeto a um fornecedor.
 
 `LangChain` · `LangGraph` · `MCP` · `Claude Code`
 
-</td>
-<td valign="top" width="50%">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s-modelos-escuro.svg">
   <img src="assets/s-modelos-claro.svg" alt="Modelos e serving" height="30">
 </picture>
 
 `Ollama` · `vLLM` · `LiteLLM` · `OpenRouter` · `Hugging Face`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s-rag-escuro.svg">
@@ -87,19 +67,12 @@ e padrões que não prendem o projeto a um fornecedor.
 
 `chunking` · `embeddings` · `reranking` · `avaliação`
 
-</td>
-<td valign="top">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s-vetorial-escuro.svg">
   <img src="assets/s-vetorial-claro.svg" alt="Bancos vetoriais" height="30">
 </picture>
 
 `pgvector` · `Qdrant` · `ChromaDB` · `FAISS` · `Milvus`
-
-</td>
-</tr>
-</table>
 
 <br>
 
