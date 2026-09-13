@@ -1,94 +1,74 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-escuro.svg">
-  <img src="assets/hero-claro.svg" alt="Abner Machado — engenharia de software independente. IA aplicada, open source, sem lock-in." width="860">
-</picture>
+# Abner Machado
 
-Construo produtos SaaS de ponta a ponta e prefiro ferramentas abertas, auto-hospedáveis
-e padrões que não prendem o projeto a um fornecedor.
+Engenheiro de software independente, focado em IA aplicada e open source.
+Construo produtos SaaS de ponta a ponta e prefiro ferramentas abertas,
+auto-hospedaveis e padroes que nao prendem o projeto a um fornecedor.
 
-<br>
+Meu objetivo e simples: transformar uma ideia em software que roda em
+producao, com codigo limpo, mantido por uma pessoa so e sem lock-in.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-atuacao-escuro.svg">
-  <img src="assets/h-atuacao-claro.svg" alt="Áreas de atuação" height="52">
-</picture>
+## Areas de atuacao
 
-- **Produtos SaaS completos** — arquitetura, backend, deploy e iteração contínua.
-- **Sistemas RAG** — ingestão, chunking, embeddings e recuperação sobre bancos vetoriais.
-- **Serving de LLMs** — modelos locais com Ollama e vLLM; APIs via OpenRouter e LiteLLM.
-- **Agentes e orquestração** — LangChain, LangGraph e Model Context Protocol (MCP).
+- Produtos SaaS completos: arquitetura, backend, deploy e iteracao continua.
+- Sistemas RAG: ingestao, chunking, embeddings e recuperacao sobre bancos vetoriais.
+- Serving de LLMs: modelos locais com Ollama e vLLM; APIs via OpenRouter e LiteLLM.
+- Agentes e orquestracao: LangChain, LangGraph e Model Context Protocol (MCP).
 
-<br>
+## Como trabalho
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-trabalho-escuro.svg">
-  <img src="assets/h-trabalho-claro.svg" alt="Como trabalho" height="52">
-</picture>
+- Open source primeiro. Solucao proprietaria so com vantagem tecnica clara.
+- Menor interferencia: a mudanca minima que resolve, sem reescrever o que funciona.
+- Decisao guiada por custo, manutencao e risco de dependencia, nao por hype.
+- Codigo aberto sempre que possivel, para que outros possam auditar e reusar.
 
-- **Código aberto primeiro.** Solução proprietária só com vantagem técnica clara.
-- **Interferência menor.** A mudança mínima que resolve, sem reescrever o que funciona.
-- **Decisão por custo, manutenção e risco de dependência** — não por hype.
-- **Código aberto sempre que possível**, para que outros possam auditar e reutilizar.
+## Stack
 
-<br>
+### Orquestracao e agentes
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/citacao-escuro.svg">
-  <img src="assets/citacao-claro.svg" alt="Transformar uma ideia em software que roda em produção — mantido por uma pessoa só, sem lock-in." width="620">
-</picture>
+<table>
+  <tr>
+    <td><img src="assets/langchain.svg" alt="LangChain" height="40"></td>
+    <td><img src="assets/langgraph.svg" alt="LangGraph" height="40"></td>
+    <td><img src="assets/mcp.svg" alt="Model Context Protocol" height="40"></td>
+    <td><img src="assets/ai-agent.svg" alt="AI Agents" height="40"></td>
+  </tr>
+</table>
 
-<br>
+### Modelos e serving
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-escuro.svg">
-  <img src="assets/h-stack-claro.svg" alt="Stack" height="52">
-</picture>
+<table>
+  <tr>
+    <td><img src="assets/huggingface.svg" alt="Hugging Face" height="40"></td>
+    <td><img src="assets/vllm.svg" alt="vLLM" height="40"></td>
+    <td><img src="assets/litellm.svg" alt="LiteLLM" height="40"></td>
+    <td><img src="assets/openrouter.svg" alt="OpenRouter" height="40"></td>
+    <td><img src="assets/codex.svg" alt="Codex" height="40"></td>
+  </tr>
+</table>
 
-<br>
+### RAG e embeddings
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s-agentes-escuro.svg">
-  <img src="assets/s-agentes-claro.svg" alt="Orquestração e agentes" height="30">
-</picture>
+<table>
+  <tr>
+    <td><img src="assets/rag.svg" alt="RAG" height="40"></td>
+    <td><img src="assets/embedding.svg" alt="Embeddings" height="40"></td>
+  </tr>
+</table>
 
-`LangChain` · `LangGraph` · `MCP` · `Claude Code`
+### Bancos vetoriais
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s-modelos-escuro.svg">
-  <img src="assets/s-modelos-claro.svg" alt="Modelos e serving" height="30">
-</picture>
+<table>
+  <tr>
+    <td><img src="assets/vector-database.svg" alt="Vector Database" height="40"></td>
+    <td><img src="assets/chromadb.svg" alt="ChromaDB" height="40"></td>
+    <td><img src="assets/faiss.svg" alt="FAISS" height="40"></td>
+    <td><img src="assets/milvus.svg" alt="Milvus" height="40"></td>
+    <td><img src="assets/qdrant.svg" alt="Qdrant" height="40"></td>
+  </tr>
+</table>
 
-`Ollama` · `vLLM` · `LiteLLM` · `OpenRouter` · `Hugging Face`
+## Filosofia
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s-rag-escuro.svg">
-  <img src="assets/s-rag-claro.svg" alt="RAG e embeddings" height="30">
-</picture>
-
-`chunking` · `embeddings` · `reranking` · `avaliação`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s-vetorial-escuro.svg">
-  <img src="assets/s-vetorial-claro.svg" alt="Bancos vetoriais" height="30">
-</picture>
-
-`pgvector` · `Qdrant` · `ChromaDB` · `FAISS` · `Milvus`
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-filosofia-escuro.svg">
-  <img src="assets/h-filosofia-claro.svg" alt="Filosofia" height="52">
-</picture>
-
-Acredito em software livre e em construir na aberta. Ferramenta que dá pra rodar na sua
-própria máquina, ler o código e adaptar vale mais do que caixa preta conveniente.
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/rodape-escuro.svg">
-  <img src="assets/rodape-claro.svg" alt="Aberto a colaboração em projetos open source." width="420">
-</picture>
-
-<sub>Tipografia <a href="https://github.com/undercasetype/Fraunces">Fraunces</a> (SIL Open Font License 1.1), convertida em contornos SVG — o GitHub remove CSS do README, então fonte própria só entra como vetor.</sub>
+Acredito em software livre e em construir na aberta. Ferramenta que da pra
+rodar na sua propria maquina, ler o codigo e adaptar vale mais do que caixa
+preta conveniente. Aberto a colaboracao em projetos open source.
